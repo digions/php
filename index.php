@@ -7,3 +7,6 @@ echo "Hello world!";
 
 //outro comentário para teste de conflito
 echo "olá curso";
+echo "Hello world! 2";
+
+echo "olá vagner";

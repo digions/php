@@ -1,12 +1,22 @@
 <?php
 
-//alteração simples de arquivo
-//arquivo editado via página do github
+/**
+ * Alteração simples de arquivo
+ * arquivo editado via página do github
+ */
+
 echo "Hello world!";
 
-
-//nova alteração função mensagem
-function HelloMessage($mensagem)
+ /**
+  * Message by function
+  *
+  * @param $mensagem
+  *
+  * @return void
+  *
+  * nova alteração função mensagem
+  */
+function helloMessage($mensagem)
 {
     return $mensagem;
 }

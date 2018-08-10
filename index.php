@@ -8,11 +8,10 @@ echo "Hello world!";
 //nova alteração função mensagem
 function HelloMessage($mensagem)
 {
-    return echo "{$mensagem}";
+    return $mensagem;
 }
 
-echo "O programa diz: ";
-HelloMessage("<b>Olá meu mundo</b>");
+echo "O programa diz: " . HelloMessage("<b>Olá meu mundo</b>");
 
 //outro comentário para teste de conflito
 echo "olá curso";
